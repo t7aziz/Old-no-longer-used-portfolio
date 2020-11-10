@@ -8732,7 +8732,7 @@ body {
   margin-top: 84px; }
   @media (min-width: 992px) {
     .dash-app {
-      margin-left: 238px; }
+      margin-left: 438px; }
       .dash-compact .dash-app {
         margin-left: 0; } }
 
@@ -8801,7 +8801,7 @@ body {
     text-decoration: none; }
 
 .dash-nav {
-  min-width: 238px;
+  min-width: 438px;
   position: fixed;
   left: 0;
   top: 0;
