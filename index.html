@@ -1,281 +1,158 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600|Open+Sans:400,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="./css/spur.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
-    <script src="../js/chart-js-config.js"></script>
-    <title>Taha Aziz - Portfolio</title>
-</head>
-
-<body>
-    <div class="dash">
-        <div class="dash-nav dash-nav-dark">
-            <header>
-                <a href="#!" class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                </a>
-                <a href="index.html" class="spur-logo"><i class="fas fa-bolt"></i> <span>Taha Aziz</span></a>
-            </header>
-            <nav class="dash-nav-list">
-                <a href="index.html" class="dash-nav-item">
-                    <i class="fas fa-home"></i> Dashboard </a>
-                <div class="dash-nav-dropdown ">
-                    <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
-                        <i class="fas fa-cube"></i> Projects </a>
-                    <div class="dash-nav-dropdown-menu">
-                        <a href="/html/cards.html" class="dash-nav-dropdown-item">Cards</a>
-                        <a href="/html/forms.html" class="dash-nav-dropdown-item">Forms</a>
-                        <div class="dash-nav-dropdown ">
-                            <a href="#" class="dash-nav-dropdown-item dash-nav-dropdown-toggle">Icons</a>
-                            <div class="dash-nav-dropdown-menu">
-                                <a href="/html/icons.html" class="dash-nav-dropdown-item">Solid Icons</a>
-                                <a href="/html/icons.html#regular-icons" class="dash-nav-dropdown-item">Regular Icons</a>
-                                <a href="/html/icons.html#brand-icons" class="dash-nav-dropdown-item">Brand Icons</a>
-                            </div>
-                        </div>
-                        <a href="/html/stats.html" class="dash-nav-dropdown-item">Stats</a>
-                        <a href="/html/tables.html" class="dash-nav-dropdown-item">Tables</a>
-                        <a href="/html/typography.html" class="dash-nav-dropdown-item">Typography</a>
-                        <a href="/html/userinterface.html" class="dash-nav-dropdown-item">User Interface</a>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Taha Aziz</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand"><a href="#page-top">:)</a></li>
+                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="#about">About</a></li>
+                <li class="sidebar-nav-item"><a href="#portfolio">Projects</a></li>
+                <li class="sidebar-nav-item"><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Header-->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h1 style="color:#FFFFFF;" class="mb-1">Taha Aziz</h1>
+                <h3 style="color:#FFFFFF;" class="mb-5"><em>2B Mechatronics Student @ UWaterloo, Seeking Fall 2021 Opportunities</em></h3>
+                <div class="center">
+                    <a class="btn btn-primary btn-xl" href="#about">About Me ⬇️</a>
+                    <a class="btn btn-primary btn-xl" href="#portfolio">My Projects ⬇️⬇️</a>
+                    <a class="btn btn-primary btn-xl" href="#footer">Contact ⬇️⬇️⬇️</a>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-center">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>Hi, I'm Taha</h2>
+                        <p class="lead mb-5">
+                            I’m a 2B at the University of Waterloo, studying Mechatronics 
+                            Engineering. Through the program, I happened to stumble upon reasarch based design
+                            as a means to solve problems. This is generally considered one of my better 
+                            stumbles. Outside of design, I enjoy Baroque music, good public transit, 
+                            and chess. At Waterloo's Engineering Ideas Clinic I created software activities for students 
+                            struggling with remote learning, and at St. Joe's I developed data analysis tools for physicians.
+                            If you’d like to chat virtually, feel free to reach out. Check out my projects and info over here! 
+                        </p>
                     </div>
                 </div>
-                <div class="dash-nav-dropdown">
-                    <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
-                        <i class="fas fa-file"></i> Layouts </a>
-                    <div class="dash-nav-dropdown-menu">
-                        <a href="/html/blank.html" class="dash-nav-dropdown-item">Blank</a>
-                        <a href="/html/content.html" class="dash-nav-dropdown-item">Content</a>
+            </div>
+        </section>
+        <!-- Portfolio-->
+        <section class="content-section" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Portfolio</h3>
+                    <h2 class="mb-5">Recent Projects</h2>
+                </div>
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="pages\page1.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Rocketry</div>
+                                    <p class="mb-0">Parachute and recovery</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio-1.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="pages\page2.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Rocketry</div>
+                                    <p class="mb-0">Test enclosure</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/notexplode.png" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="pages\page3.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Robotic Biped</div>
+                                    <p class="mb-0">Can find its way to you to deliver snacks :)</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/stand.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="pages\page4.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Robotic Vehicle</div>
+                                    <p class="mb-0">Traverses obstacles with modular peripherals</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/kerchow.jpg" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="pages\page5.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Notes App</div>
+                                    <p class="mb-0">Built for Android and IOS</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/typing.png" alt="..." />
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="pages\page6.html">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <div class="h2">Android Game</div>
+                                    <p class="mb-0">A fun project you can play today</p>
+                                </div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/phone3.png" alt="..." />
+                        </a>
                     </div>
                 </div>
-                <div class="dash-nav-dropdown">
-                    <a href="#!" class="dash-nav-item dash-nav-dropdown-toggle">
-                        <i class="fas fa-info"></i>My info</a>
-                    <div class="dash-nav-dropdown-menu">
-                        <a href="https://github.com/t7aziz" target="_blank" class="dash-nav-dropdown-item">GitHub</a>
-                        <a href="http://linkedin.com/in/t7aziz" target="_blank" class="dash-nav-dropdown-item">LinkedIn</a>
-                        <a target="_blank" class="dash-nav-dropdown-item">t7aziz@uwaterloo.ca</a>
-                        <a target="_blank" class="dash-nav-dropdown-item">289 689 7750</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="dash-app">
-            <main class="dash-content">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xl-10">
-                            <h1 class="dash-title-two">Hi, I'm Taha</h1>
-                            <p style="size:10cm"> I’m a 2nd year student at the University of Waterloo, studying Mechatronics 
-                                Engineering. Through the program, I happened to stumble upon reasarch based design
-                                as a means to solve problems. This is generally considered one of my better 
-                                stumbles. Outside of design, I enjoy Baroque music, good public transit, 
-                                and chess. I worked at Waterloo's Engineering Ideas Clinic developing software activities for students struggling with remote learning in the summer.
-                                If you’d like to chat virtually, feel free to reach out. </p>
-                            <p style="size:10cm"> Check out my projects and info over here! </p>
-                            <p style="size:10cm"> This site contains web design layouts and not my other projects, feel free to check out the web design and programming! This website was built using HTML, CSS, JavaScript, and Bootstrap4</p>
-                        </div>
-                    </div>
-                </div>
-            </main>
-                <main class="dash-content">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="card spur-card">
-                                    <div class="card-header ">
-                                        <div class="spur-card-icon">
-                                            <i class="fas fa-chart-bar"></i>
-                                        </div>
-                                        <div class="spur-card-title"> A card </div>
-                                        <div class="spur-card-menu">
-                                            <div class="dropdown show">
-                                                <a class="spur-card-menu-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Another action</a>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body "> Just a card that can be used to display some content, graphs, tables, and so on. </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="card spur-card">
-                                    <div class="card-header bg-primary text-white">
-                                        <div class="spur-card-icon">
-                                            <i class="fas fa-chart-bar"></i>
-                                        </div>
-                                        <div class="spur-card-title"> Primary Header </div>
-                                        <div class="spur-card-menu">
-                                            <div class="dropdown show">
-                                                <a class="spur-card-menu-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Another action</a>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body "> Just a card that can be used to display some content, graphs, tables, and so on. </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="card spur-card">
-                                    <div class="card-header bg-success text-white">
-                                        <div class="spur-card-icon">
-                                            <i class="fas fa-chart-bar"></i>
-                                        </div>
-                                        <div class="spur-card-title"> Success </div>
-                                        <div class="spur-card-menu">
-                                            <div class="dropdown show">
-                                                <a class="spur-card-menu-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Another action</a>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body "> Just a card that can be used to display some content, graphs, tables, and so on. </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="card spur-card">
-                                    <div class="card-header bg-danger text-white">
-                                        <div class="spur-card-icon">
-                                            <i class="fas fa-chart-bar"></i>
-                                        </div>
-                                        <div class="spur-card-title"> Danger Header </div>
-                                        <div class="spur-card-menu">
-                                            <div class="dropdown show">
-                                                <a class="spur-card-menu-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Another action</a>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body "> Just a card that can be used to display some content, graphs, tables, and so on. </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row mt-5">
-                            <div class="col-lg-6">
-                                <div class="card spur-card">
-                                    <div class="card-header bg-warning text-dark">
-                                        <div class="spur-card-icon">
-                                            <i class="fas fa-chart-bar"></i>
-                                        </div>
-                                        <div class="spur-card-title"> Warning Card </div>
-                                        <div class="spur-card-menu">
-                                            <div class="dropdown show">
-                                                <a class="spur-card-menu-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Another action</a>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body bg-warning text-dark"> Just a card that can be used to display some content, graphs, tables, and so on. </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="card spur-card">
-                                    <div class="card-header bg-dark text-white">
-                                        <div class="spur-card-icon">
-                                            <i class="fas fa-chart-bar"></i>
-                                        </div>
-                                        <div class="spur-card-title"> Dark Card </div>
-                                        <div class="spur-card-menu">
-                                            <div class="dropdown show">
-                                                <a class="spur-card-menu-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Another action</a>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body bg-dark text-white"> Just a card that can be used to display some content, graphs, tables, and so on. </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-6">
-                                <div class="card spur-card">
-                                    <div class="card-header bg-secondary text-white">
-                                        <div class="spur-card-icon">
-                                            <i class="fas fa-chart-bar"></i>
-                                        </div>
-                                        <div class="spur-card-title"> Secondary Card </div>
-                                        <div class="spur-card-menu">
-                                            <div class="dropdown show">
-                                                <a class="spur-card-menu-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Another action</a>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body bg-secondary text-white"> Just a card that can be used to display some content, graphs, tables, and so on. </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="card spur-card">
-                                    <div class="card-header bg-info text-white">
-                                        <div class="spur-card-icon">
-                                            <i class="fas fa-chart-bar"></i>
-                                        </div>
-                                        <div class="spur-card-title"> Info Card </div>
-                                        <div class="spur-card-menu">
-                                            <div class="dropdown show">
-                                                <a class="spur-card-menu-link" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                </a>
-                                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
-                                                    <a class="dropdown-item" href="#">Action</a>
-                                                    <a class="dropdown-item" href="#">Another action</a>
-                                                    <a class="dropdown-item" href="#">Something else here</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body bg-info text-white"> Just a card that can be used to display some content, graphs, tables, and so on. </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </main>
-        </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="../js/spur.js"></script>
-</body>
-
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center bg-light" id="footer">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <a href="mailto:t7aziz@uwaterloo.ca" target="_blank">Email ↗&nbsp;&nbsp;</a>
+                    <a href="https://www.linkedin.com/in/t7aziz/" target="_blank">LinkedIn ↗&nbsp;&nbsp;</a>
+                    <a href="https://github.com/t7aziz" target="_blank">Github ↗&nbsp;&nbsp;</a>
+                </ul>
+                <p class="text-muted small mb-0">Made by Taha Aziz 2021</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
