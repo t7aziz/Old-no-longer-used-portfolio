@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Taha Aziz</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="../css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <a class="menu-toggle rounded" href="../index.html#projects">←</a>
+        <!-- About-->
+        <section class="content-section bg-light" id="about">
+            <div class="container px-4 px-lg-5 text-left">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-10">
+                        <h2>Wearable Step Counter - <a href="https://github.com/t7aziz/stepCounter" target="_blank">Github Repo↗</a></h2>
+                        <p class="lead mb-5">
+                            Wristwatch sized device which displays steps walked, to     
+                            track physical activity. Calculates steps using accelerometer built 
+                            into Adafruit microcontroller, programmed in Python.
+                        </p>
+                        <img style="max-width: 30%;" src="../assets/img/fruit.png"/>
+                        <p class="text-muted small mb-0">Board with battery</p><br>
+                        <p class="lead mb-5">
+                            The device uses a small battery pack of 2 AAA batteries that can fit behind the board. I found it was necessary to debounce the accelerometer signal to get an 
+                            accurate reading, and testing was done to determine the ideal parameters for determining what will trigger a step.
+                        </p>
+                        <img style="max-width: 30%;" src="../assets/img/hand.png"/>
+                        <p class="text-muted small mb-0">Wearable configuration with LED output</p><br>
+                        <p class="lead mb-5">
+                            I wasn't able to acquire a display output, so I made it work with the LEDs already built into the board. The amount of LEDs turned is equal to the amount 
+                            of steps counted / 100, rounded to the nearest 100. Therefore the above image shows 900 steps walked out of a total of 1000.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center" id="footer">
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <a href="mailto:t7aziz@uwaterloo.ca" target="_blank">Email ↗&nbsp;&nbsp;</a>
+                    <a href="https://www.linkedin.com/in/t7aziz/" target="_blank">LinkedIn ↗&nbsp;&nbsp;</a>
+                    <a href="https://github.com/t7aziz" target="_blank">Github ↗&nbsp;&nbsp;</a>
+                </ul>
+                <p class="text-muted small mb-0">Made by Taha Aziz 2021</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button-->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
